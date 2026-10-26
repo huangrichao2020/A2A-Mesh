@@ -1,4 +1,4 @@
-# AGENT.md — agent-mesh 自述文件
+# AGENT.md — A2A-Mesh 自述文件
 
 > 任何 Agent 读完此文件即可理解如何在 mesh 网络中运行和通信。
 
@@ -6,7 +6,7 @@
 
 ## 我是什么
 
-agent-mesh 是一个让多台设备上的 Agent 实时双向通信的基础设施。
+A2A-Mesh 是一个让多台设备上的 Agent 实时双向通信的基础设施。
 
 ```
 主人的 Mac（Hub）
@@ -156,4 +156,4 @@ node mesh.js doctor    # 环境检测
 
 ---
 
-*agent-mesh · 让每台设备上的 Agent 都能实时协作*
+*A2A-Mesh · 让每台设备上的 Agent 都能实时协作*

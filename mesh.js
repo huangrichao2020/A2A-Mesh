@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * mesh.js — agent-mesh 主入口
+ * mesh.js — A2A-Mesh 主入口
  *
  * 用法：
  *   mesh init     — 初始化配置（角色、Hub 地址等）
@@ -41,7 +41,7 @@ async function main() {
 // mesh init
 // ──────────────────────────────────────────
 async function runInit() {
-  console.log(chalk.bold.cyan('\n🔧  agent-mesh 初始化\n'));
+  console.log(chalk.bold.cyan('\n🔧  A2A-Mesh 初始化\n'));
 
   const { role } = await inquirer.prompt([{
     type: 'list',
@@ -417,7 +417,7 @@ async function runACPSearch([query]) {
 }
 
 function printHelp() {
-  console.log(chalk.bold('\nagent-mesh — 多设备 Agent 通信网格\n'));
+  console.log(chalk.bold('\nA2A-Mesh — 多设备 Agent 通信网格\n'));
   console.log('  mesh init          初始化（设置角色、Hub 地址）');
   console.log('  mesh start         启动（Hub 或 Spoke）');
   console.log('  mesh doctor        环境检测');

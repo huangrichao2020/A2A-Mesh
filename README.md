@@ -1,8 +1,8 @@
-# agent-mesh
+# A2A-Mesh
 
 **多设备 AI Agent 实时通信网格 · Real-time multi-device AI Agent communication mesh**
 
-[![version](https://img.shields.io/badge/version-0.1.0-00c8ff?style=for-the-badge&labelColor=1a1a2e)](https://github.com/huangrichao2020/agent-mesh)
+[![version](https://img.shields.io/badge/version-0.1.0-00c8ff?style=for-the-badge&labelColor=1a1a2e)](https://github.com/huangrichao2020/A2A-Mesh)
 [![node](https://img.shields.io/badge/node-%3E%3D18-00e599?style=for-the-badge&labelColor=1a1a2e)](https://nodejs.org)
 [![license](https://img.shields.io/badge/license-MIT-a78bfa?style=for-the-badge&labelColor=1a1a2e)](./LICENSE)
 
@@ -41,8 +41,8 @@
 ### 第一步：Hub 设备（你的 Mac）
 
 ```bash
-git clone https://github.com/huangrichao2020/agent-mesh
-cd agent-mesh
+git clone https://github.com/huangrichao2020/A2A-Mesh
+cd A2A-Mesh
 npm install
 
 node mesh.js init
@@ -59,8 +59,8 @@ node mesh.js start
 ### 第二步：Spoke 设备（远程设备 / 局域网其他设备）
 
 ```bash
-git clone https://github.com/huangrichao2020/agent-mesh
-cd agent-mesh
+git clone https://github.com/huangrichao2020/A2A-Mesh
+cd A2A-Mesh
 npm install
 
 node mesh.js init
@@ -93,7 +93,7 @@ node mesh.js doctor
 ```
 
 ```
-🔍  agent-mesh 环境检测
+🔍  A2A-Mesh 环境检测
 
 [网络]
   ✅ 本机 IP：192.168.1.5 / en0
@@ -185,7 +185,7 @@ ws://127.0.0.1:7700
 ## 项目结构 · Structure
 
 ```
-agent-mesh/
+A2A-Mesh/
 ├── mesh.js              # CLI 入口：init / start / doctor / nodes / send
 ├── AGENT.md             # Agent 自述文件（让 Agent 读了就会用）
 ├── core/

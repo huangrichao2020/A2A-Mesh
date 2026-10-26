@@ -24,7 +24,7 @@ function section(title) {
 }
 
 async function runDoctor() {
-  console.log(chalk.bold('\n🔍  agent-mesh 环境检测\n'));
+  console.log(chalk.bold('\n🔍  A2A-Mesh 环境检测\n'));
 
   // ── 网络 ──
   section('网络');
